@@ -6,13 +6,13 @@ The project was built during [ETHBerlin](http://ethberlin.com/), over 2 days, an
 ## Building the Docker image
 
 ```
-$ docker build --tag py3web3mpl .
+$ docker build --tag shardingpoc .
 ```
 
 ## Launching docker
 
 ```
-$ docker run -it --net=host --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xauthority:rw" --volume="usr/ethshardingpoc" py3web3mpl
+$ docker run -it --net=host --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xauthority:rw" --volume="usr/ethshardingpoc" shardingpoc
 ```
 
 ## Running the simulator

@@ -20,3 +20,5 @@ RUN apt-get install -y libxml2 libxml2-dev libpng-dev freetype2-demos pkg-config
 # PIP
 RUN python3.6 -m pip install pip --upgrade
 RUN python3.6 -m pip install -r requirements.txt
+
+CMD ["python3.6", "./simulator.py"]
