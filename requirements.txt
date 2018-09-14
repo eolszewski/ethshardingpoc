@@ -1,0 +1,18 @@
+web3==4.5.0
+ipython==6.5.0
+numpy==1.15.1
+requests==2.19.1
+ftfy==5.5.0
+pytz==2018.5
+docker-py==1.10.6
+mysql-connector==2.1.6 
+networkx==2.1
+matplotlib==2.2.3
+
+# linting
+flake8==3.5.0
+black==18.6b4
+isort==4.3.4
+
+# testing
+pytest==3.6.0
